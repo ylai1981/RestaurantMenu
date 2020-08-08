@@ -13,19 +13,37 @@ public class MenuItem {
         this.itemIsNew = itemIsNew;
     }
 
+    public double getItemPrice() {
+        return itemPrice;
+    }
+
     public void setItemPrice(double itemPrice) {
         this.itemPrice = itemPrice;
+    }
+
+    public String getItemDescription() {
+        return itemDescription;
     }
 
     public void setItemDescription(String itemDescription) {
         this.itemDescription = itemDescription;
     }
 
+    public String getItemCategory() {
+        return itemCategory;
+    }
+
     public void setItemCategory(String itemCategory) {
         this.itemCategory = itemCategory;
+    }
+
+    public boolean isItemIsNew() {
+        return itemIsNew;
     }
 
     public void setItemIsNew(boolean itemIsNew) {
         this.itemIsNew = itemIsNew;
     }
+
+
 }

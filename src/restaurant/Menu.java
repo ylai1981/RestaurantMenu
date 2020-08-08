@@ -12,19 +12,21 @@ public class Menu {
         this.menuItems = menuItems;
     }
 
+    public Date getDateModified() {
+        return dateModified;
+    }
+
     public void setDateModified(Date dateModified) {
         this.dateModified = dateModified;
+    }
+
+    public ArrayList<MenuItem> getMenuItems() {
+        return menuItems;
     }
 
     public void setMenuItems(ArrayList<MenuItem> menuItems) {
         this.menuItems = menuItems;
     }
 
-    public Date getDateModified() {
-        return dateModified;
-    }
 
-    public ArrayList<MenuItem> getMenuItems() {
-        return menuItems;
-    }
 }
